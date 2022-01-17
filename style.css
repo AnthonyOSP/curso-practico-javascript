@@ -1,6 +1,44 @@
 body{
     background: black;
 }
-h1{
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1, h2, label{
     color: white;
+    margin: 10px;
+}
+
+.contenedor-titulo{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.figuras{
+    width: 50%;
+    margin-right: 20px;
+}
+article{
+    width: 600px;
+    border: 1px solid white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+article img{
+    width: 50%;
+}
+
+.detalles-article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
